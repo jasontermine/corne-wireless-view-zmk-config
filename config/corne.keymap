@@ -31,7 +31,8 @@
                 <&kp RALT>,
                 <&macro_tap>,
                 <&kp Y>,
-                <&macro_release>;
+                <&macro_release>,
+                <&kp RALT>;
 
             label = "UE";
         };
@@ -44,7 +45,8 @@
                 <&kp RALT>,
                 <&macro_tap>,
                 <&kp P>,
-                <&macro_release>;
+                <&macro_release>,
+                <&kp RALT>;
 
             label = "OE";
         };
@@ -57,7 +59,8 @@
                 <&kp RALT>,
                 <&macro_tap>,
                 <&kp Q>,
-                <&macro_release>;
+                <&macro_release>,
+                <&kp RALT>;
 
             label = "AE";
         };
