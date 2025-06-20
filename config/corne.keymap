@@ -18,7 +18,8 @@
                 <&kp RALT>,
                 <&macro_tap>,
                 <&kp TAB>,
-                <&macro_release>;
+                <&macro_release>,
+                <&kp RALT>;
 
             label = "WINDOWTAB";
         };
@@ -97,7 +98,7 @@
 &trans  &kp CARET         &kp SINGLE_QUOTE       &kp DOUBLE_QUOTES  &kp GRAVE          &kp TILDE        &kp AT_SIGN   &kp PLUS         &kp ASTERISK   &kp EQUAL  &kp UNDERSCORE  &trans
 &trans  &kp LESS_THAN     &kp LEFT_PARENTHESIS   &kp LEFT_BRACE     &kp LEFT_BRACKET   &kp BACKSLASH    &kp QUESTION  &kp EXCLAMATION  &kp AMPERSAND  &kp PIPE   &kp MINUS       &trans
 &trans  &kp GREATER_THAN  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE    &kp RIGHT_BRACKET  &kp SLASH        &kp DOLLAR    &kp PERCENT      &kp COLON      &kp HASH   &kp SLASH       &trans
-                                                 &trans             &trans             &kp SPACE        &trans        &trans           &trans
+                                                 &trans             &trans             &windowtab       &trans        &trans           &trans
             >;
         };
 
@@ -122,7 +123,7 @@
 &none  &none         &none         &none         &none       &none             &none   &none   &none   &none  &none        &none
 &none  &none         &none         &none         &none       &studio_unlock    &none   &none   &none   &none  &none        &none
 &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_CLR  &bt BT_CLR_ALL    &none   &none   &none   &none  &bootloader  &none
-                                   &trans        &trans      &windowtab        &trans  &trans  &trans
+                                   &trans        &trans      &trans            &trans  &trans  &trans
             >;
         };
 
